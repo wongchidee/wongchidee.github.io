@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "zhonghuaxun",
+"features": [
+{ "type": "Feature", "properties": { "gbifID": 624151904.0, "stateProvi": null, "latitude": 31.786667, "longitude": 121.141389, "kingdom": "Animalia", "phylum": "Chordata", "class": "Actinopterygii", "order_": "Acipenseriformes", "family": "Acipenseridae", "genus": "Acipenser", "species": "Acipenser sinensis" }, "geometry": { "type": "Point", "coordinates": [ 121.1414794921875, 31.78668212890625 ] } },
+{ "type": "Feature", "properties": { "gbifID": 607707460.0, "stateProvi": "Hong Kong", "latitude": 22.216987, "longitude": 114.175598, "kingdom": "Animalia", "phylum": "Chordata", "class": "Actinopterygii", "order_": "Acipenseriformes", "family": "Acipenseridae", "genus": "Acipenser", "species": "Acipenser sinensis" }, "geometry": { "type": "Point", "coordinates": [ 114.17572021484375, 22.21710205078125 ] } },
+{ "type": "Feature", "properties": { "gbifID": 473040276.0, "stateProvi": "Macau", "latitude": 22.2, "longitude": 113.55, "kingdom": "Animalia", "phylum": "Chordata", "class": "Actinopterygii", "order_": "Acipenseriformes", "family": "Acipenseridae", "genus": "Acipenser", "species": "Acipenser sinensis" }, "geometry": { "type": "Point", "coordinates": [ 113.55010986328125, 22.2000732421875 ] } },
+{ "type": "Feature", "properties": { "gbifID": 219038859.00000003, "stateProvi": null, "latitude": 23.2, "longitude": 113.266667, "kingdom": "Animalia", "phylum": "Chordata", "class": "Actinopterygii", "order_": "Acipenseriformes", "family": "Acipenseridae", "genus": "Acipenser", "species": "Acipenser sinensis" }, "geometry": { "type": "Point", "coordinates": [ 113.2667236328125, 23.2000732421875 ] } }
+]
+}

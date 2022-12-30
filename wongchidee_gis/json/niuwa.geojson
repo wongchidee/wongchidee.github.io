@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "niuwa",
+"features": [
+{ "type": "Feature", "properties": { "gbifID": 1039484840, "stateProvi": "Guangdong Province", "latitude": 23.5, "longitude": 117.05, "kingdom": "Animalia", "phylum": "Chordata", "class": "Amphibia", "order_": "Anura", "family": "Ranidae", "genus": "Lithobates", "species": "Lithobates catesbeianus" }, "geometry": { "type": "Point", "coordinates": [ 117.05010986328125, 23.5001220703125 ] } },
+{ "type": "Feature", "properties": { "gbifID": 1039481860, "stateProvi": "Guangdong Province", "latitude": 23.4667, "longitude": 117.0, "kingdom": "Animalia", "phylum": "Chordata", "class": "Amphibia", "order_": "Anura", "family": "Ranidae", "genus": "Lithobates", "species": "Lithobates catesbeianus" }, "geometry": { "type": "Point", "coordinates": [ 117.0001220703125, 23.4666748046875 ] } },
+{ "type": "Feature", "properties": { "gbifID": 1039469776, "stateProvi": "Guangdong Province", "latitude": 23.432851, "longitude": 117.06513, "kingdom": "Animalia", "phylum": "Chordata", "class": "Amphibia", "order_": "Anura", "family": "Ranidae", "genus": "Lithobates", "species": "Lithobates catesbeianus" }, "geometry": { "type": "Point", "coordinates": [ 117.06512451171875, 23.43292236328125 ] } },
+{ "type": "Feature", "properties": { "gbifID": 1039458925, "stateProvi": "Guangdong Province", "latitude": 23.5, "longitude": 117.05, "kingdom": "Animalia", "phylum": "Chordata", "class": "Amphibia", "order_": "Anura", "family": "Ranidae", "genus": "Lithobates", "species": "Lithobates catesbeianus" }, "geometry": { "type": "Point", "coordinates": [ 117.05010986328125, 23.5001220703125 ] } },
+{ "type": "Feature", "properties": { "gbifID": 543546130, "stateProvi": "Sichuan Prov.", "latitude": 27.828778, "longitude": 102.280317, "kingdom": "Animalia", "phylum": "Chordata", "class": "Amphibia", "order_": "Anura", "family": "Ranidae", "genus": "Lithobates", "species": "Lithobates catesbeianus" }, "geometry": { "type": "Point", "coordinates": [ 102.2802734375, 27.82891845703125 ] } }
+]
+}

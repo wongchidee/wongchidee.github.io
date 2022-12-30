@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "dongyafeihuang",
+"features": [
+{ "type": "Feature", "properties": { "gbifID": 910530622.99999988, "stateProvi": null, "latitude": 47.353056, "longitude": 124.0025, "kingdom": "Animalia", "phylum": "Arthropoda", "class": "Insecta", "order_": "Orthoptera", "family": "Acrididae", "genus": "Locusta", "species": "Locusta migratoria" }, "geometry": { "type": "Point", "coordinates": [ 124.00250244140625, 47.35308837890625 ] } }
+]
+}

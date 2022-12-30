@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WFF's Test3 | ArcGIS API for JS</title>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.23/esri/themes/light/main.css" />
+    <script src="https://js.arcgis.com/4.23/"></script>
+     
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/test3.css">
+    <script src="js/test3.js"></script>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+</head>
+
+<body>
+    <!-- 添加地图联动的两个视图 -->
+    <div id="viewDiv"></div>
+    <div id="infoDiv">
+      <input
+        type="button"
+        id="switch-btn"
+        value="3D"
+      />
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div id="view2Div"></div>
+    <div id="messageDiv" class="esri-widget esri-heading">
+     <h4 class="esri-heading">Click on a country</h4>
+    </div>
+    <!-- 切换底图控件 -->
+    <span id="layerToggle1" class="esri-widget">
+        <div class="imgbox" id="ChinaOnlineStreetWarm">
+            <img src="image/new.png" />
+            <a href="#">
+                <div class="mask">
+                    <span>中国地图<br>含地铁线路</span>
+                </div>
+            </a>
+        </div>
+        <hr>
+        <div class="imgbox" id="DeLorme_World">
+            <img src="image/terrain.png" />
+            <a href="#">
+                <div class="mask">
+                    <span>USGS Imagery<br>Topo Basemap</span>
+                </div>
+            </a>
+        </div>
+        <hr>
+        <div class="imgbox" id="StreetPurplishBlue">
+            <img src="image/sand.png" />
+            <a href="w3d.html">
+                <div class="mask">
+                    <span>路径可视化<br>&nbsp;3D</span>
+                </div>
+            </a>
+        </div>
+        
+        
+    </span>
+
+    <!-- 动态添加专题图层的控件 -->
+    <span id="layerToggle2" class="esri-widget">
+        <li class="liMenu" onclick="change(this);">
+            <div class="imgbox" id="layers">
+                <img src="image/layers.png" />
+                <a href="#">
+                    <div class="mask">
+                        <span style="font-size: 25px;">+</span>
+                    </div>
+                </a>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+        </li>
+        <li value="1" class="liHide"><hr><input type="checkbox" id="qiushaya_geojsonLayer">广州地铁线路图</li>
+        <li value="1" class="liHide"><input type="checkbox" id="baitouhe_geojsonLayer">佛山地铁线路图</li>
+        <li value="1" class="liHide"><input type="checkbox" id="bigpanda_geojsonLayer">东莞地铁线路图</li>
+        <li value="1" class="liHide"><input type="checkbox" id="chuanshanjia_geojsonLayer">深圳地铁线路图</li>
+        <li value="1" class="liHide"><input type="checkbox" id="dongyafeihuang_geojsonLayer">香港地铁线路图</li>
+        <li value="1" class="liHide"><input type="checkbox" id="niuwa_geojsonLayer">澳门轻轨线路图</li>
+        <li value="1" class="liHide"><input type="checkbox" id="zhonghuaxun_geojsonLayer">大湾区交通路线</li>
+        <li value="1" class="liHide"><input type="checkbox" id="xiangyu_geojsonLayer">基于格网的道路密度分析</li>
+        <li value="1" class="liHide"><input type="checkbox" id="xin">基于行政区的道路密度分析</li>
+    </span>
+
+    <!-- 显示图层数量、比例尺、地理坐标的控件 -->
+    <span id="layerToggle3" class="esri-widget">
+        <div id="layerNum"></div>
+        <div id="scaleDisplay"></div>
+        <div id="coordinateDisplay"></div>
+    </span>
+</body>
+</html>

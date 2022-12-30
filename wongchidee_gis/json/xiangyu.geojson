@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "xiangyu",
+"features": [
+{ "type": "Feature", "properties": { "gbifID": 218774100.0, "stateProvi": null, "latitude": 19.62, "longitude": 114.05, "kingdom": "Animalia", "phylum": "Chordata", "class": "Actinopterygii", "order_": "Osmeriformes", "family": "Plecoglossidae", "genus": "Plecoglossus", "species": "Plecoglossus altivelis" }, "geometry": { "type": "Point", "coordinates": [ 114.05010986328125, 19.6201171875 ] } },
+{ "type": "Feature", "properties": { "gbifID": 189231512.0, "stateProvi": null, "latitude": 26.116667, "longitude": 119.333333, "kingdom": "Animalia", "phylum": "Chordata", "class": "Actinopterygii", "order_": "Osmeriformes", "family": "Plecoglossidae", "genus": "Plecoglossus", "species": "Plecoglossus altivelis" }, "geometry": { "type": "Point", "coordinates": [ 119.33331298828125, 26.11669921875 ] } }
+]
+}

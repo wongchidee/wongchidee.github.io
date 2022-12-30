@@ -1,0 +1,211 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+
+/* 地图联动的两个视图 */
+#viewDiv {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#view2Div {
+    position: absolute;
+    height: 25%;
+    width: 25%;
+    right: 0px;
+    bottom: 0%;
+    box-shadow: rgb(150, 150, 150) 0px 0px 20px 1px;
+}
+
+
+/* 几个控件的样式，都差不多 */
+#layerToggle1 {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(250, 250, 250, 0.6);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: rgb(150, 150, 150) 0px 0px 20px 1px;
+    font-family: "站酷快乐体2016修订版";
+}
+
+#layerToggle2 {
+    top: 20px;
+    right: 150px;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(250, 250, 250, 0.6);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: rgb(150, 150, 150) 0px 0px 20px 1px;
+    font-family: "站酷快乐体2016修订版";
+}
+
+#layerToggle3 {
+    bottom: 200px;
+    right: 20px;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(250, 250, 250, 0.6);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: rgb(150, 150, 150) 0px 0px 20px 1px;
+    font-family: "站酷快乐体2016修订版";
+}
+
+
+/* 切换Basemaps控件的鼠标悬浮效果 */
+.imgbox {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.imgbox img {
+    width: 100px;
+    height: 100px;
+    /* 转换速度 */
+    transition: transform 0.5s ease;
+}
+
+.imgbox .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: rgba(44, 44, 44, 0.6);
+    color: #ffffff;
+    opacity: 0;
+    display: flex;
+    font-size: 13px;
+    /* 转换速度 */
+    transition: transform 0.5s ease;
+}
+
+.mask span {
+    margin: auto;
+}
+
+.imgbox a:hover .mask {
+    opacity: 1;
+    /* 增加元素的大小*/
+    -webkit-transform: scale(1.1, 1.1);
+    /* Safari */
+    -ms-transform: scale(1.1, 1.1);
+    /* IE 9 */
+    transform: scale(1.1, 1.1);
+}
+
+.imgbox:hover img {
+    -webkit-transform: scale(1.1, 1.1);
+    /* Safari */
+    -ms-transform: scale(1.1, 1.1);
+    /* IE 9 */
+    transform: scale(1.1, 1.1);
+}
+
+
+/* 添加专题图层控件的png的样式 */
+.liMenu>.imgbox {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+.liMenu>.imgbox img {
+    width: 30px;
+    height: 30px;
+    /* 转换速度 */
+    transition: transform 0.5s ease;
+}
+
+.liMenu>.imgbox .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: rgba(44, 44, 44, 0.6);
+    color: #ffffff;
+    opacity: 0;
+    display: flex;
+    font-size: 13px;
+    /* 转换速度 */
+    transition: transform 0.5s ease;
+}
+
+.liMenu>.mask span {
+    margin: auto;
+}
+
+#layerToggle2>.imgbox a:hover .mask {
+    opacity: 1;
+    /* 增加元素的大小*/
+    -webkit-transform: scale(1.1, 1.1);
+    /* Safari */
+    -ms-transform: scale(1.1, 1.1);
+    /* IE 9 */
+    transform: scale(1.1, 1.1);
+}
+
+#layerToggle2>.imgbox:hover img {
+    -webkit-transform: scale(1.1, 1.1);
+    /* Safari */
+    -ms-transform: scale(1.1, 1.1);
+    /* IE 9 */
+    transform: scale(1.1, 1.1);
+}
+
+
+/* 添加专题图层控件的下拉菜单样式 */
+li {
+    list-style-type: none;
+}
+
+.liShow {
+    display: block;
+    background: while;
+
+    width: 100px;
+}
+
+.liHide {
+    display: none;
+    background: blue;
+}
+
+#hello{
+    bottom: 25px;
+    left: 20px;
+    position: absolute;
+}
+#menu {
+        padding: 1em;
+      }
+
+      #menu > div {
+        padding: 0.4em;
+      }
+
+      select {
+        font-family: "Avenir Next W00", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+ #infoDiv {
+        position: absolute;
+        top: 15px;
+        left: 60px;
+      }
+ 
+      #infoDiv input {
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+      }
